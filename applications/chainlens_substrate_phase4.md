@@ -79,7 +79,7 @@ Examples of queries clients can make:
 
 - return a list of all verification requests
 
-`GET /stats/astar`
+`GET /stats/<network-name>`
 
 response:
 ```
@@ -98,19 +98,19 @@ response:
 
 - return a list of only successfully verified contracts
 
-`GET /stats/astar/verified`
+`GET /stats/<network-name>/verified`
 
-`GET /stats/astar/verified/5`
+`GET /stats/<network-name>/verified/5`
 
 - return a list of only failed contracts
 
-`GET /stats/astar/failed`
+`GET /stats/<network-name>/failed`
 
-`GET /stats/astar/failed/10`
+`GET /stats/<network-name>/failed/10`
 
 - return a list of top n recent verification requests
 
-`GET /stats/astar/5`
+`GET /stats/<network-name>/5`
 
 #### Mock-ups
 ![verifications requests](https://drive.google.com/uc?id=19gx_F-JIrXTrnHOB4N3JwyEOikOmZlJJ)
@@ -146,9 +146,9 @@ While a number of open-source alternatives have emerged, none of them have suppo
 
 ### Overview
 
-- Total Estimated Duration: ~3.8 months
+- Total Estimated Duration: ~4 months
 - Full-Time Equivalent (FTE): 1
-- Total Costs: € 50,000
+- Total Costs: € 55,000
 
 ### Milestone 1
 
@@ -158,9 +158,9 @@ While a number of open-source alternatives have emerged, none of them have suppo
 
 ### Milestone 2
 
-- Total Estimated Duration: 1.8 months
+- Total Estimated Duration: 2 months
 - Full-Time Equivalent (FTE): 1
-- Total Costs: €22,500
+- Total Costs: €27,500
 
 | Nº  | Deliverable | Specification
 | :-- | :--         | :--
